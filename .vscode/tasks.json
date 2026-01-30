@@ -1,0 +1,17 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Run Backend",
+      "type": "shell",
+      "command": "cd backend && source venv/bin/activate && uvicorn main:app --reload",
+      "problemMatcher": []
+    },
+    {
+      "label": "Run Frontend",
+      "type": "shell",
+      "command": "cd frontend && npm run dev",
+      "problemMatcher": []
+    }
+  ]
+}
